@@ -33,8 +33,6 @@ movies['cast'] = movies['cast'].fillna('')
 movies['keywords'] = movies['keywords'].fillna('')
 movies['overview'] = movies['overview'].fillna('')
 
-print(movies.columns)
-
 # --- Helper functions ---
 def extract_names(data):
     try:
